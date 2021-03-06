@@ -9,10 +9,12 @@ function moveFlies(animName="flyfly")
     
     width: 100px; 
     height: 100px;
-    border: 2px solid black; " id="fly">
+    // border: 2px solid black; " id="fly">
         
         
-        <img  style=" position: absolute; animation-name: ${animName}; animation-duration: 3s;" src="./images/Fly.png" alt="">
+        <img  style=" position: absolute; animation-name: ${animName}; animation-duration: 3s;
+        // animation-iteration-count: infinite;
+        // animation-timing-function: linear;" src="./images/Fly.png" alt="">
     </div>
 
     `
