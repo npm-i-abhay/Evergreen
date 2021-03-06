@@ -1,0 +1,139 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+.wrapper .landing 
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: .2e;
+    background-color: rgb(103, 155, 103);
+    height: 15em;
+    width: 100vw;
+}
+
+.landing h2,h3 
+{
+    margin-bottom: -.5em;
+}
+
+.landing #globe
+{   margin-top: 1em;
+    height: 5em;
+    width: 5em;
+    background-color: lightblue;
+    border-radius: 4em;
+}
+
+
+
+
+
+
+
+
+.wrapper .drive 
+{
+    background-color: rgb(123, 177, 218);
+    height: 20em;
+}
+
+
+
+
+
+
+
+.wrapper .dumping 
+{
+    background-color: rgb(142, 168, 187);
+    height: 20em;
+}
+
+
+
+
+
+
+
+
+
+.wrapper .statPage
+{
+    background-color: rgb(86, 112, 130);
+    height: 20em;
+}
+
+
+
+
+
+
+
+
+
+.wrapper .conversation 
+{
+    background-color: rgb(103, 155, 103);
+    height: 25em;
+}
+
+
+
+
+
+
+
+
+.wrapper .mainCategory 
+{
+    background-color: rgb(152, 191, 152);
+    height: 30em;
+}
+
+
+
+
+
+
+
+
+.wrapper .sorting
+{
+    background-color: rgb(146, 193, 210);
+    height: 30em;
+}
+
+
+
+
+
+
+
+
+.wrapper .happyResults
+{
+    background-color: rgb(210, 171, 146);
+    height: 30em;
+}
