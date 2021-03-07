@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/mainWorkspace.css">
+
+
+    <style>
+
+        @keyframes example  
+            {
+               from {transform: rotate(0deg);}
+               to {transform: rotate(360deg);}
+            }
+        
+         @keyframes flyfly
+           {
+            from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+            to   { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
+           } 
+           @keyframes flyflytwo
+           {
+            from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+            to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
+           } 
+        </style>
 </head>
 <body>
      
@@ -112,6 +133,14 @@
    </div> 
    <!-- main ends here -->
 
-
+   
+   <script src="./comps/Globe/index.js"></script>
+   <script src="./comps/firstComp/index.js"></script>
+   <script src="./comps/secondComp/index.js"></script>
+   <script src="./comps/flies/index.js"></script>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js" integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw==" crossorigin="anonymous"></script>
+   
+   <script src="/mainWorkspace.js"></script>
 </body>
 </html>

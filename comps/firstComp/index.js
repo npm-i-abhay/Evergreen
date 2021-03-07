@@ -3,7 +3,7 @@ function animateTruck ()
   
 
 
- const container = document.getElementById('svg');
+ const container = document.getElementById('dumpTruck');
     console.log(container);
     
     const animItem = bodymovin.loadAnimation
