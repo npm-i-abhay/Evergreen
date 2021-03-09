@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Truck Animation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="svg hide" id="svg"></div>
+            <button>Click me</button>
+
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js" async defer></script>
+
+        <script>
+
+            const play = document.querySelector('button');
+
+            const svgContainer = document.getElementById('svg');
+
+            const animItem = bodymovin.loadAnimation({
+                wrapper: svgContainer,
+                animType: "svg",
+                autoplay: false,
+                loop: false,
+                path: 'https://assets5.lottiefiles.com/packages/lf20_qz7ejirl.json'
+            });
+            
+            play.addEventListener('click', () => {
+                animItem.goToAndPlay(0,true);
+            })
+        </script>
+    </body>
+</html>

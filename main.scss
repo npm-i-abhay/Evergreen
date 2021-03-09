@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    display:grid;
+    place-content: center;
+    height:100vh;
+}
+
+.container{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+    margin: 0 auto;
+    padding:2em;
+}
+
+button{
+    background: green;
+    height: 300px;
+    width: 50px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(3, 218, 3);
+}
+
+button:active{
+    background: white;
+    color: black;
+}
+
+.svg{
+    height: 35em;
+    width: 55em;
+    position:absolute;
+    pointer-events: none;
+}
+
+.hide{
+    
+}
