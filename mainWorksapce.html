@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/mainWorkspace.css">
-å
+
+    <style>
+        @keyframes falling
+        {
+            0%  {top: 0em;  opacity: 0; }
+            25% {top: 15em; opacity: 1;}
+            50% {top: 25em; opacity: 1;}
+            75% {top: 35em; opacity: 0;}
+            100%{top: 38em; opacity: 0;}
+        }
+    </style>
+
 </head>
 <body>
      
@@ -39,7 +50,13 @@
 
             <div class="statPage">
                 <div class="flexContainer" >
-                    <div id="fallingGarbage"></div>
+                    <div id="fallingGarbage">
+                        <img style="
+                            position: absolute;
+                            left: 20em;
+                            top: 5em;
+                            animation: falling 5s linear 0s;" src="./images/garbage/grouped garbage.png" alt="">
+                    </div>
                     <div id="statistics"></div>
                 </div>
                 <div class="garbagePile">
@@ -115,7 +132,7 @@
    </div> 
    <!-- main ends here -->
 
-   
+
    <script src="./comps/Globe/index.js"></script>
    <script src="./comps/firstComp/index.js"></script>
    <script src="./comps/secondComp/index.js"></script>

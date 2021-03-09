@@ -75,10 +75,6 @@ html,body{
     background-color: rgb(142, 168, 187);
     height: 25em;
     position: relative;
-    /* background-image: url(./images/landfill\ background.png);
-    background-size: contain;
-    background-repeat:no-repeat; */
-    /* background-position-y: -11em; */
     
 }
 #background {
@@ -96,16 +92,17 @@ html,body{
 .dumping #dumpTruck
 {
     position: absolute;
+    object-fit: contain;
     height: 300px;
-    width: 300px;
+    width: 700px;
     top: 5em;
-    left: 45em; 
-    transition: all 5s;  
+    left: 20em; 
+    transition: all 5s 1s;  
 }
 
 #dumpTruck:hover 
 {
-    left: 20em;
+    left: -40em;
 }
 
 
@@ -117,7 +114,7 @@ html,body{
 .wrapper .statPage
 {
     background-color: rgb(86, 112, 130);
-    height: 20em;
+    height: 40em;
 }
 @keyframes flyfly
 {
@@ -129,6 +126,12 @@ html,body{
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
  to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
 } 
+
+.statPage .flexContainer 
+{
+    position: relative;
+    
+}
 
 
 
