@@ -73,13 +73,39 @@ html,body{
 .wrapper .dumping 
 {   display: flex;
     background-color: rgb(142, 168, 187);
-    height: 20em;
+    height: 25em;
+    position: relative;
+    /* background-image: url(./images/landfill\ background.png);
+    background-size: contain;
+    background-repeat:no-repeat; */
+    /* background-position-y: -11em; */
+    
 }
+#background {
+    position: relative;
+    width: 100%;
+}
+#background img {
+    object-fit:fill;
+    width: 100vw;
+    height: 100%;
+   
 
+
+}
 .dumping #dumpTruck
 {
+    position: absolute;
     height: 300px;
     width: 300px;
+    top: 5em;
+    left: 45em; 
+    transition: all 5s;  
+}
+
+#dumpTruck:hover 
+{
+    left: 20em;
 }
 
 
