@@ -2,7 +2,7 @@ function handleEarth ()
 {
     return `
     
-<div style="
+<div  style="
     position: relative; 
     // border: 2px solid black; 
     border-radius: 50px;
@@ -12,11 +12,11 @@ function handleEarth ()
     justify-content: center;
     "> 
     
-    <img style="object-fit: contain;
+    <img onload="handleEarth.addAnimation(this)"  style="object-fit: contain;
      height: 100%;
      width: 100%; 
-     animation-name:example; 
-     animation-duration: 10s;
+    //  animation-name:example; 
+    //  animation-duration: 10s;
     
     //  animation-iteration-count: infinite;
     //  animation-timing-function: linear; 
@@ -26,6 +26,11 @@ function handleEarth ()
 </div>
     
     `
+}
+
+handleEarth.addAnimation = (el) =>
+{
+    el.style.animation = "example 10s linear 0s infinite"
 }
 
 

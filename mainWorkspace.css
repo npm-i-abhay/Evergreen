@@ -37,6 +37,11 @@ html,body{
 {
     margin-bottom: -.5em;
 }
+@keyframes example  
+{
+   from {transform: rotate(0deg);}
+   to {transform: rotate(360deg);}
+}
 
 /* .landing #globe
 {   margin-top: 1em;
@@ -88,7 +93,16 @@ html,body{
     background-color: rgb(86, 112, 130);
     height: 20em;
 }
-
+@keyframes flyfly
+{
+ from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+ to   { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
+} 
+@keyframes flyflytwo
+{
+ from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+ to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
+} 
 
 
 
@@ -135,8 +149,8 @@ html,body{
     display: flex;
     justify-content:center;
     align-items: center;
-   position: absolute;
-   top: 5em;
+    position: absolute;
+    top: 5em;
 }
 
 
