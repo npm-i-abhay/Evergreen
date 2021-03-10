@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mainWorkspace.css">
+
+
+    <style>
+
+        @keyframes example  
+            {
+               from {transform: rotate(0deg);}
+               to {transform: rotate(360deg);}
+            }
+        
+         @keyframes flyfly
+           {
+            from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+            to   { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
+           } 
+           @keyframes flyflytwo
+           {
+            from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
+            to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
+           } 
+
+
+           .box {
+        align-self: flex-end;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        margin: 0 auto 0 auto;
+        transform-origin: bottom;
+        width: 200px;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-40px); }
+        100% { transform: translateY(0); }
+    }
+
+
+
+
+
+
+
+
+
+
+        </style>
+</head>
+<body>
+     
+   <div class="main">
+       <div class="wrapper">
+           
+            <div class="landing">
+               <h2 id="h1">Learned to be sustainable</h1>
+               <h3 id="h2">With Eddy The Worm & Travis The Trash</h2>
+               <div id="globe"></div>
+               <div id="scroll"></div>
+               <p></p>
+               <div id="clickArrow"></div>
+            </div>
+            <!-- landing ends here -->
+
+            <div class="drive">
+                <div id="drivingTruck"></div>
+                <img src="images/roadAnimation.jpg">
+            </div>
+            <!-- driving scene ends here -->
+
+
+            <div class="dumping">
+                <div id="background"></div>
+                <div id="dumpTruck"></div>
+            </div>
+            <!-- truck dumping garbage ends here -->
+
+            <div class="statPage">
+                <div class="flexContainer" >
+                    <div id="fallingGarbage"></div>
+                    <div id="statistics"></div>
+                </div>
+                <div class="garbagePile">
+                    <div id="flies"></div>
+                    <div id="pile"></div>
+                </div>
+            </div>
+            <!-- stat page ends here -->
+
+            <div class="conversation">
+                <div class="characterFlex">
+                    <div id="ed"></div>
+                    <div id="travis"></div>
+                </div> 
+                <div class="barGraph">
+                    <div id="interactiveGraph"></div>
+                </div>
+                <div class="information">
+                    <div class="buttonFlex">
+                        <div id="button"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- conversation,graph and redirecting buttons' page ends here -->
+
+            <div class="mainCategory">
+                <div class="topicHeading"></div>
+                <div class="topicInfoFlex">
+                    <div id="halfGlobe"></div>
+                    <div id="arrows"></div>
+                    <div id="categoryStatsFlex">
+                        <div id="item1"></div>
+                        <div id="item2"></div>
+                        <div id="item3"></div>
+                        <div id="item4"></div>
+                    </div>
+                </div>
+                <div id="dosAndDontsFlex">
+                    <div id="dos"></div>
+                    <div id="donts"></div>
+                </div>
+            </div>
+            <!-- category information pages ends here -->
+
+
+            <div class="sorting">
+                <div id="talkingTravis"></div>
+                <div id="bunchOfTrash"></div>
+                <div class="bins">
+                    <div id="black"></div>
+                    <div id="green"></div>
+                    <div id="blue"></div>
+                </div>
+            </div>
+            <!-- sorting page ends here -->
+
+
+            <div class="happyResults">
+                <div id="happyHeading"></div>
+                <div id="compostPit"></div>
+                <div class="endingConvo">
+                    <div id="happyTravis"></div>
+                    <div id="happyEd"></div>
+                </div>
+            </div>
+            
+
+
+
+
+       </div>
+       <!-- wrapper ends here -->
+   </div> 
+   <!-- main ends here -->
+
+   
+   <script src="./comps/Globe/index.js"></script>
+   <script src="./comps/firstComp/index.js"></script>
+   <script src="./comps/secondComp/index.js"></script>
+   <script src="./comps/flies/index.js"></script>
+   <script src="/comps/truckAnimation/index.js"></script>
+   <script src="/comps/scrollIcon/index.js"></script>
+   <script src="/comps/Travis/index.js"></script>
+   <script src="/comps/Ed/index.js"></script>
+   <script src="/comps/chat/index.js"></script>
+   <script src="/comps/garbageBin/index.js"></script>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js" integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw==" crossorigin="anonymous"></script>
+   
+   <script src="/mainWorkspace.js"></script>
+</body>
+</html>
