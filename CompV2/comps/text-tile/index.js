@@ -1,4 +1,4 @@
-function tileUI(){
+function tilecomp(){
     return `
     <div style='
     position: absolute;
@@ -11,4 +11,4 @@ function tileUI(){
     `
 }
 
-export const tile = tileUI();
+//export const tile = tilecomp();

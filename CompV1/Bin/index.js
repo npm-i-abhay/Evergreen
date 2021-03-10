@@ -1,5 +1,6 @@
-const start = document.querySelector('svg');
-const svgContainer = document.getElementById('svg');
+function binanimation(){
+const svgContainer = document.getElementById("svg");
+
 const animItem = bodymovin.loadAnimation({
     wrapper:svgContainer,
     animType: 'svg', 
@@ -8,6 +9,7 @@ const animItem = bodymovin.loadAnimation({
     path: 'https://assets7.lottiefiles.com/packages/lf20_hvcwnlgl.json'
 });
 
-start.addEventListener('click', () => {
+svgContainer.addEventListener('click', () => {
     animItem.goToAndPlay(0,true);
 })
+}
