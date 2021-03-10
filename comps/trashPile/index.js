@@ -1,10 +1,10 @@
 function animateTrash(){
-    const svgContainer = document.getElementById('trashpile');
+    const svgContainer = document.getElementById('pile');
 
 const animItem = bodymovin.loadAnimation({
     wrapper:svgContainer,
     animType: 'svg', 
-    autoplay: false,
+    autoplay: true,
     loop: false,
     path: 'https://assets6.lottiefiles.com/packages/lf20_wmbv9bjr.json'
 });

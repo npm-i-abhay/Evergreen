@@ -3,7 +3,8 @@ function handleGarbage(top="5em", left="20em", url="/images/garbage/grouped garb
     return`
     <div>
     <img style="
-    position: absolute;
+    display:flex;
+    position: relative;
     left:${left};
     top: ${top};
     animation: ${name} 5s linear 0s;" src="${url}" alt="">

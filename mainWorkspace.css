@@ -12,6 +12,7 @@ html,body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    
 }
 
 
@@ -111,10 +112,17 @@ html,body{
 
 
 .wrapper .statPage
-{
+{position: relative;
     background-color: rgb(86, 112, 130);
     height: 40em;
 }
+
+.garbagePile #flies
+{
+    position: absolute;
+    left: 20em;
+}
+
 @keyframes flyfly
 {
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
@@ -149,9 +157,30 @@ html,body{
 .statPage .flexContainer 
 {
     position: relative;
+    display: flex;
 
 }
+.garbagePile 
+{   position: relative;
+    object-fit: contain;
+    width: 100vw;
+    height: 100%
+}
 
+#fallingGarbage
+{   display: flex;
+    z-index: 1;
+    /* position: absolute; */
+}
+
+#pile 
+{   position: absolute;
+    left: -10em;
+    top: 12em;
+    display: flex;
+    height: 20em;
+   
+}
 
 
 
