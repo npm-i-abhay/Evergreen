@@ -1,0 +1,20 @@
+img{
+    animation-name:test; animation-duration: 5s; animation-direction: alternate-reverse; 
+}  
+@keyframes test{
+0% {
+rotate: (0deg);
+}   
+20%{
+rotate: (45deg)
+}
+50%{
+rotate: (-45deg)
+}
+80%{
+rotate: (45deg)
+}
+100%{
+rotate: (-45deg)
+}
+}
