@@ -1,16 +1,16 @@
 function animateBarChart(){
-    return `
-    <div class ='barchart' style='
-    width: 1060px;
-    height: 720px;
-    background: #A9C687;
-    border-radius: 123px;
-    '>
+    const svgContainer = document.getElementById("barchart");
 
-    <div id='barchart'>
-    
-    </div>
-    `
+const animItem = bodymovin.loadAnimation({
+    wrapper:svgContainer,
+    animType: 'svg', 
+    autoplay: false,
+    loop: false,
+    path: 'https://assets4.lottiefiles.com/packages/lf20_ggkwliq4.json'
+});
+
+svgContainer.addEventListener('click', () => {
+    animItem.goToAndPlay(0,true);
+})
 }
-
 //export const barchart = barchartUI()

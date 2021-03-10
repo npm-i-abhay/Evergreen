@@ -8,33 +8,21 @@ function animateButton(){
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px; 
     '>
 
-    <div id="apple">
+    <div class="apple" style="margin-left: 40px;">
+    Icon here
     </div>
 
     <div id="text" style='margin-right: 40px; font-size:1.5em;'>
-    Compost
+    Composting
     </div>
     
     </div>
     `
-    function appleAnimation(){
-        const svgContainer = document.getElementById('apple')
-        
-        const animateItem = bodymovin.loadAnimation({
-            wrapper:svgContainer,
-            animType: 'svg', 
-            autoplay: false,
-            loop: false,
-            path: 'https://assets7.lottiefiles.com/packages/lf20_wacnyh75.json'   
-        });
-        
-        svgContainer.addEventListener('click', () => {
-            animItem.goToAndPlay(0,true);
-        });
-    }
 
 }
 
