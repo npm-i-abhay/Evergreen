@@ -2,7 +2,7 @@
 function animatecompost ()
 {
     const binContainer = document.getElementById('compost');
-    console.log (binContainer)
+
     const animBin = bodymovin.loadAnimation
     (
         {
