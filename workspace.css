@@ -1,0 +1,70 @@
+
+html, body {
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.container{
+    position: relative;
+    border: 2px solid black;
+    height: 20vh;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: contain;
+    width: 30vw ; 
+    margin: 0;
+}
+
+#compost
+{
+    position: absolute;
+    left: 10em;
+    height: 30vh;
+    width: 50vw;
+}
+ 
+ /*            recycleboxes                  */
+
+
+.dontrecycle{
+    height: 685px;
+    width:50vw;
+    background-color: #F1B6B6;
+    border-radius: 24px;
+    z-index: -1;
+}
+
+.donttext{
+    margin: 0 0 0 50px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    
+}
+
+.dont{
+    
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    border-radius: 24px;
+    align-self: auto;
+    margin: auto;
+    justify-content:center;
+    background-color: #ECC2C2;
+    border: 3px solid black;
+    z-index: 3;
+}
+
+.items{
+align-items: center;
+display: flex;
+border: 3px solid black;
+flex: 1;
+}
