@@ -1,4 +1,4 @@
-function animateBin(){
+function animateBlueBin(){
     const svgContainer = document.getElementById("bin");
 
 const animItem = bodymovin.loadAnimation({
