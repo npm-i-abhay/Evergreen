@@ -62,9 +62,8 @@ html,body{
 {
     background-color: rgb(123, 177, 218);
     height: 20em;
+    position: relative;
 }
-
-
 
 
 
@@ -127,10 +126,21 @@ html,body{
  to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
 } 
 
+
+@keyframes falling
+{
+    0%  {top: 0em;  opacity: 0; }
+    25% {top: 15em; opacity: 1;}
+    50% {top: 25em; opacity: 1;}
+    75% {top: 35em; opacity: 0;}
+    100%{top: 38em; opacity: 0;}
+}
+
+
 .statPage .flexContainer 
 {
     position: relative;
-    
+
 }
 
 
