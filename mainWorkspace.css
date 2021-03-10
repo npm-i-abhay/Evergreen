@@ -12,6 +12,7 @@ html,body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    overflow-x: hidden;
     
 }
 
@@ -217,26 +218,62 @@ html,body{
     justify-content: space-evenly;
 }
 
+.mainCategory .topicHeading
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    font-size: 4em;
+    left: 550px;
+    align-items: center;
+    justify-content: center;
+}
+.mainCategory .topicHeading2
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    font-size: 4em;
+    left: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
 .wrapper #halfGlobe 
 {   position: absolute;
     left: -10em;
     z-index: 0;
     margin-right: 2em; ;
 }
+.wrapper #halfGlobe2 
+{   position: absolute;
+    right: -10em;
+    z-index: 0;
+    margin-left: 2em; 
+    overflow: hidden;
+}
 
 .topicInfoFlex
 {
     display: flex;
+    margin-top: 5em;
+}
+.topicInfoFlex2
+{
+    display: flex;
+    margin-top: 5em;
 }
 #categoryStatsFlex
 {   
     display: flex;
     flex-direction: column;
     height: 500px;
-    width: 500px;
+    width: 40vw;
     padding: 1em;
     
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 

@@ -7,7 +7,7 @@ function tilecomp(text="whatever"){
     margin:1em;
     justify-content: center;
     align-items: center;
-    width: 450px;
+    width: 40vw;
     height: 100px;
     background: #90B68C;
     border-radius: 10px;

@@ -28,8 +28,16 @@ document.querySelector("#statItem3").innerHTML +=tilecomp("excus");
 document.querySelector("#statItem4").innerHTML +=tilecomp("excus");
 
 
+document.querySelector("#statItem1A").innerHTML += tilecomp();  
+document.querySelector("#statItem2B").innerHTML +=tilecomp("excus");
+document.querySelector("#statItem3C").innerHTML +=tilecomp("excus");
+
 document.querySelector("#arrows").innerHTML += makeArrows();
 document.querySelector("#arrows").innerHTML += makeArrows();
 document.querySelector("#arrows").innerHTML += makeArrows();
+document.querySelector("#arrows2").innerHTML += makeArrows("&larr;");
+document.querySelector("#arrows2").innerHTML += makeArrows("&larr;");
+document.querySelector("#arrows2").innerHTML += makeArrows("&larr;");
 
 document.querySelector("#halfGlobe").innerHTML +=handleEarth("350px", "350px");
+document.querySelector("#halfGlobe2").innerHTML +=handleEarth("350px", "350px");
