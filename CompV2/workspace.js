@@ -2,6 +2,7 @@
 //run with -npm run storybook- 
 
 document.getElementById('bin').innerHTML += animateBin();
+document.getElementById('blackbin').innerHTML += animateBlackBin();
 document.getElementById('text-tile').innerHTML += tilecomp();
 document.getElementById('button').innerHTML += animateButton();
 document.getElementById('barchart').innerHTML += animateBarChart();
