@@ -1,4 +1,4 @@
-function handleEarth ()
+function handleEarth (width="150px",height="150px")
 {
     return `
     
@@ -6,7 +6,7 @@ function handleEarth ()
     position: relative; 
     // border: 2px solid black; 
     border-radius: 50px;
-    width: 150px; height: 150px;   
+    width: ${width}; height: ${height};   
     align-items: center; 
     display: flex; 
     justify-content: center;
