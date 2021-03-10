@@ -1,4 +1,4 @@
-function handleGarbage(top="5em", left="20em", url="/images/garbage/grouped garbage.png")
+function handleGarbage(top="5em", left="20em", url="/images/garbage/grouped garbage.png", name="falling")
 {
     return`
     <div>
@@ -6,7 +6,7 @@ function handleGarbage(top="5em", left="20em", url="/images/garbage/grouped garb
     position: absolute;
     left:${left};
     top: ${top};
-    animation: falling 5s linear 0s;" src="${url}" alt="">
+    animation: ${name} 5s linear 0s;" src="${url}" alt="">
 
     </div>
     
