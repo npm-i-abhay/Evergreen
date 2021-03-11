@@ -1,4 +1,4 @@
-document.querySelector("#globe").innerHTML += handleEarth("500", "500");
+document.querySelector("#globe").innerHTML += handleEarth("500px", "500px");
 
 document.querySelector("#clickArrow").innerHTML += scrollBounce();
 
@@ -27,6 +27,8 @@ document.querySelector("#garbageItem4").innerHTML += handleGarbage("0em", "5em",
 
 
 document.querySelector("#pile").innerHTML += animateTrash();
+
+document.querySelector("#statistics").innerHTML += statBar();
 
 
 document.querySelector("#ed").innerHTML += eddyUI();
@@ -85,9 +87,7 @@ document.querySelector("#dos2div").innerHTML += addItem('/images/book.png','Pape
 
 
 
-var script=document.createElement('script');
- script.src="./comps/compost/index.js";
-document.head.appendChild(script);
+
 
 
 

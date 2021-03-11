@@ -21,7 +21,7 @@ html,body{
 {   display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: .2e;
     background-color: rgb(103, 155, 103);
     height: 65em;
@@ -106,7 +106,7 @@ h1{
 .wrapper .dumping 
 {   display: flex;
     background-color: rgb(142, 168, 187);
-    height: 25em;
+    height: 65em;
     position: relative;
     
 }
@@ -150,7 +150,7 @@ h1{
     object-fit: contain;
     height: 300px;
     width: 700px;
-    top: 5em;
+    top: 45em;
     left: 20em; 
     transition: all 5s 3s;
     color: rgba(35, 138, 228, 0);  
@@ -227,9 +227,9 @@ h1{
 
 #pile 
 {   
-    /* position: absolute; */
-    left: -10em;
-    top: 12em;
+    position: absolute;
+    left: -13em;
+    top: 11em;
     display: flex;
     height: 20em;
    
@@ -393,7 +393,7 @@ z-index: -5;
     justify-content:center;
     align-items: center;
     position: absolute;
-    top: 25em;
+    top: 20em;
 }
 
 

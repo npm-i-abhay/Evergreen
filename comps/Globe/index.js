@@ -30,7 +30,7 @@ function handleEarth (width="150px",height="150px")
 
 handleEarth.addAnimation = (el) =>
 {
-    el.style.animation = "example 10s linear 0s "
+    el.style.animation = "example 10s linear 0s infinite "
 }
 
 
