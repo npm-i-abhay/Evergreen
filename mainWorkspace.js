@@ -13,8 +13,10 @@ document.querySelector("#drivingTruck").innerHTML += truckAnimation();
 // page4 StatPage/Falling garbage/ conversation and graph
 document.querySelector("#flies").innerHTML += moveFlies()
 document.querySelector("#flies").innerHTML += moveFlies("flyflytwo")
+document.querySelector("#flies").innerHTML += moveFlies()
+document.querySelector("#flies").innerHTML += moveFlies("flyflytwo")
 
-document.querySelector("#garbageItem1").innerHTML += handleGarbage("5em", "10em");
+document.querySelector("#garbageItem1").innerHTML += handleGarbage("0em", "10em");
 
 document.querySelector("#garbageItem2").innerHTML += handleGarbage("0em", "15em", "./images/garbage/appple 1.png", "fallingtwo");
 
@@ -22,7 +24,7 @@ document.querySelector("#garbageItem3").innerHTML += handleGarbage("0em", "15em"
 
 document.querySelector("#garbageItem4").innerHTML += handleGarbage("0em", "5em", "./images/garbage/garbage bag.png", "fallingtwo");
 
-document.querySelector("#green").innerHTML += handleRecycle ();
+
 
 document.querySelector("#pile").innerHTML += animateTrash();
 
@@ -75,12 +77,19 @@ document.querySelector("#dos").innerHtml += dispDontRecycle()
 
 
 // sorting
-document.querySelector("#black").innerHTML += animateBlackBin();
-document.querySelector("#blue").innerHTML += animateBlueBin();
+document.querySelector("#blackbin").innerHTML += animateBlackBin();
+document.querySelector("#greenbin").innerHTML += animateGreenBin();
+document.querySelector("#bluebin").innerHTML += animateBlueBin();
+
 // sorting ends
 
 
 // result/ending page
 document.querySelector("#compostPit").innerHTML += animatecompost();
+
+// functionality 
+
+// 
+
 
 // shits done yo!

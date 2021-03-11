@@ -12,7 +12,7 @@ html,body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     
 }
 
@@ -135,11 +135,14 @@ html,body{
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> origin
 .dumping #dumpTruck
 {
     position: absolute;
@@ -172,7 +175,8 @@ html,body{
 .garbagePile #flies
 {
     position: absolute;
-    left: 20em;
+    left: 15em;
+    display: flex;
 }
 
 @keyframes flyfly
