@@ -13,7 +13,7 @@ function animateButton(){
     margin-left: 40px; 
     '>
     <div class="apple" style="margin-left: 40px;">
-    Icon here
+    <img src="./images/garbage/appple 1.png">
     </div>
     <div id="text" style='margin-right: 40px; font-size:1.5em;'>
     Composting

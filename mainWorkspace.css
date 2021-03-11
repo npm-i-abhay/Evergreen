@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Reem Kufi', sans-serif;;
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -18,13 +18,6 @@ html,body{
 }
 
 
-
-
-
-
-
-
-
 .wrapper .landing 
 {   display: flex;
     flex-direction: column;
@@ -32,27 +25,38 @@ html,body{
     justify-content: space-around;
     margin-bottom: .2e;
     background-color: rgb(103, 155, 103);
-    height: 15em;
+    height: 65em;
     width: 100vw;
 }
 
-.landing h2,h3 
+.landing h1, h2
 {
     margin-bottom: -.5em;
+    margin-top: 30px;
 }
+
 @keyframes example  
 {
    from {transform: rotate(0deg);}
    to {transform: rotate(360deg);}
 }
 
+/* Headers */
+h1{
+    color: white;
+}
+.topicHeading{
+    color: white;
+}
+/* End of Headers */
+
 .box {
     align-self: flex-end;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     margin: 0 auto 0 auto;
     transform-origin: bottom;
-    width: 200px;
+    width: 300px;
 }
 .bounce-1 {
     animation-name: bounce-1;
@@ -92,7 +96,7 @@ html,body{
 .wrapper .drive 
 {
     background-color: rgb(123, 177, 218);
-    height: 20em;
+    height: 75em;
     position: relative;
 }
 
@@ -120,8 +124,9 @@ html,body{
 
 .drive #drivingTruck{
     position: absolute;
+    top: 500px;
     object-fit: fill;
-    height: 300px;
+    height: 800px;
     width: 100%;
 
 }
@@ -149,7 +154,7 @@ html,body{
     width: 700px;
     top: 5em;
     left: 20em; 
-    transition: all 5s 1s;
+    transition: all 5s 3s;
     color: rgba(35, 138, 228, 0);  
 }
 
@@ -157,11 +162,6 @@ html,body{
 {
     left: -40em;
 }
-
-
-
-
-
 
 
 .wrapper .statPage
@@ -182,12 +182,12 @@ html,body{
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
  to   { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
 } 
+
 @keyframes flyflytwo
 {
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
  to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
 } 
-
 
 @keyframes falling
 {
@@ -228,17 +228,14 @@ html,body{
 }
 
 #pile 
-{   position: absolute;
+{   
+    /* position: absolute; */
     left: -10em;
     top: 12em;
     display: flex;
     height: 20em;
    
 }
-
-
-
-
 
 
 
@@ -373,7 +370,15 @@ html,body{
 }
 
 
+#dosAndDontsFlex{
+display:flex;
+}
 
+#dosAndDontsFlex2{
+display: flex;
+background-color: rgb(152, 191, 152);
+z-index: -5;
+}
 
 
 
@@ -392,7 +397,7 @@ html,body{
     justify-content:center;
     align-items: center;
     position: absolute;
-    top: 5em;
+    top: 25em;
 }
 
 
@@ -422,12 +427,19 @@ html,body{
     /* position: relative; */
     height: 400px;
     width: 33.3vw;
+    z-index: -5;
     margin: 0;
     
 }
 
 
-
+#compostPit
+{
+    position: absolute;
+    left: 25em;
+    height: 50vh;
+    width: 50vw;
+}
 
 
 .wrapper .happyResults
