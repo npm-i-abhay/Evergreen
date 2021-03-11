@@ -31,6 +31,11 @@ document.querySelector("#pile").innerHTML += animateTrash();
 
 document.querySelector("#ed").innerHTML += eddyUI();
 document.querySelector("#travis").innerHTML += TravisUI();
+document.querySelector("#ed").innerHTML += chatUI();
+document.querySelector("#travis").innerHTML += chat2UI();
+
+
+
 
 document.querySelector("#interactiveGraph").innerHTML += animateBarChart();
 document.querySelector("#button").innerHTML += animateButton();

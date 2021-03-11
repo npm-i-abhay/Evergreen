@@ -1,11 +1,11 @@
-function TravisUI(top="200px"){
+function TravisUI(){
     return`
     <img src="/images/trashy travis.png" style="
     height:250px;
     width 150px;
     margin-top:50px;
     position:absolute;
-    top:${top};
+    top:250px;
     
     " onclick='TravisUI.chatBubble()'>
    
@@ -14,6 +14,6 @@ function TravisUI(top="200px"){
 
 
 TravisUI.chatBubble = () =>{
-    document.getElementById("chat").style.opacity="100";
+    document.getElementById("chat2").style.opacity="100";
 
 }
