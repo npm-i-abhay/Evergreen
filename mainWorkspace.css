@@ -45,6 +45,34 @@ html,body{
    to {transform: rotate(360deg);}
 }
 
+.box {
+    align-self: flex-end;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* .landing #globe
 {   margin-top: 1em;
     height: 5em;
@@ -87,12 +115,34 @@ html,body{
     width: 100vw;
     height: 100%;
    
+}
 
+.drive #drivingTruck{
+    position: absolute;
+    object-fit: fill;
+    height: 300px;
+    width: 100%;
 
 }
 
 
+.drive img{
+    object-fit: fill;
+    width: 100vw;
+    height:100%;
+    z-index: -1;
+}
 
+
+
+<<<<<<< HEAD
+
+
+
+
+
+=======
+>>>>>>> origin
 .dumping #dumpTruck
 {
     position: absolute;
@@ -195,10 +245,50 @@ html,body{
 
 
 .wrapper .conversation 
-{   position: relative;
+{   
+    display:flex;
+    justify-content: center;
+    position: relative;
     background-color: rgb(103, 155, 103);
-    height: 45em;
+    height: 85em;
 }
+
+.characterFlex{
+    display:flex;
+    justify-content:space-around;
+    background-color: green;
+    position:relative;
+    width: 70%;
+    height:100%;
+
+}
+
+.wrapper .graph{
+    display:flex;
+    justify-content:center;
+    align-content:space-between;
+    position: relative;
+    background-color: green;
+    height: 85em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.buttonFlex{
+    display:flex;
+  
+}
+
+
+
 
 
 #interactiveGraph
@@ -343,3 +433,4 @@ html,body{
     background-color: rgb(210, 171, 146);
     height: 30em;
 }
+
