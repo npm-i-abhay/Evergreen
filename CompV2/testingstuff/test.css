@@ -1,4 +1,4 @@
-.apple {
+.action-item-ims {
     display: inline-block;
     animation-name: rotate;
     animation-duration: .6s; 
@@ -20,7 +20,6 @@
     }
   }
   
-
   .action-graph{
     width: 1152px;
     height: 685px;
@@ -39,20 +38,42 @@
     align-items: center;
   }
 
+  .action-tile-r{
+    width: 492px;
+    height: 496px;
+    background: #ECC2C2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+  
+  .action-tile-g{
+    width: 492px;
+    height: 496px;
+    background: #CBF7A8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+  }
+
   .do-not-recycle, .do-not-compost{
     background: #F1B6B6;
-    opacity: 0.7;
+
   }
 
   .do-recycle, .do-compost{
     background: #AEE781;
-    opacity: 0.7;
-  }
 
+  }
 
   .action-items{
     display: flex;
     flex-direction: row no-wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 20px;
   }
   
