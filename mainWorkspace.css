@@ -139,6 +139,11 @@ h1{
 
 
 
+
+
+
+
+
 .dumping #dumpTruck
 {
     position: absolute;
@@ -147,7 +152,7 @@ h1{
     width: 700px;
     top: 5em;
     left: 20em; 
-    transition: all 5s 1s;
+    transition: all 5s 3s;
     color: rgba(35, 138, 228, 0);  
 }
 
@@ -254,13 +259,15 @@ h1{
 .wrapper .graph{
     display:flex;
     justify-content:center;
-    align-content:space-between;
+    align-items:flex-end;
     position: relative;
     background-color: green;
-    height: 85em;
+    height: 55em;
 }
 
-
+.buttonFlex{
+    margin:30px;
+}
 
 
 
@@ -359,7 +366,15 @@ h1{
 }
 
 
+#dosAndDontsFlex{
+display:flex;
+}
 
+#dosAndDontsFlex2{
+display: flex;
+background-color: rgb(152, 191, 152);
+z-index: -5;
+}
 
 
 
@@ -408,12 +423,19 @@ h1{
     /* position: relative; */
     height: 400px;
     width: 33.3vw;
+    z-index: -5;
     margin: 0;
     
 }
 
 
-
+#compostPit
+{
+    position: absolute;
+    left: 25em;
+    height: 50vh;
+    width: 50vw;
+}
 
 
 .wrapper .happyResults
