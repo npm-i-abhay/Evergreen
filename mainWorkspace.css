@@ -277,7 +277,15 @@ html,body{
 }
 
 
+#dosAndDontsFlex{
+display:flex;
+}
 
+#dosAndDontsFlex2{
+display: flex;
+background-color: rgb(152, 191, 152);
+z-index: -5;
+}
 
 
 
@@ -326,12 +334,19 @@ html,body{
     /* position: relative; */
     height: 400px;
     width: 33.3vw;
+    z-index: -5;
     margin: 0;
     
 }
 
 
-
+#compostPit
+{
+    position: absolute;
+    left: 25em;
+    height: 50vh;
+    width: 50vw;
+}
 
 
 .wrapper .happyResults
