@@ -135,14 +135,11 @@ html,body{
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
 
 
->>>>>>> refs/remotes/origin/main
 .dumping #dumpTruck
 {
     position: absolute;
@@ -151,7 +148,7 @@ html,body{
     width: 700px;
     top: 5em;
     left: 20em; 
-    transition: all 5s 1s;
+    transition: all 5s 3s;
     color: rgba(35, 138, 228, 0);  
 }
 
