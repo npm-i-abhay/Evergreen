@@ -12,7 +12,8 @@ function animateTruck ()
             wrapper:container,
             loop: false,
             autoplay: false,
-            path:  'https://assets1.lottiefiles.com/packages/lf20_qdmr8wxk.json'
+            path: 'https://assets7.lottiefiles.com/packages/lf20_d3j9f8b2.json'
+            // path:  'https://assets1.lottiefiles.com/packages/lf20_qdmr8wxk.json'
         }
 
     );
