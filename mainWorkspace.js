@@ -1,4 +1,4 @@
-document.querySelector("#globe").innerHTML += handleEarth();
+document.querySelector("#globe").innerHTML += handleEarth("500", "500");
 
 document.querySelector("#clickArrow").innerHTML += scrollBounce();
 
@@ -70,18 +70,18 @@ document.querySelector("#halfGlobe2").innerHTML +=handleEarth("350px", "350px");
 
 
 document.querySelector("#donts2").innerHTML += dispDosDonts('#F1B6B6','#ECC2C2','Don\'t Recycle','donts2');
-document.querySelector("#donts2div").innerHTML += addItem('images./plasticbag.png','Soft Plastic');
-document.querySelector("#donts2div").innerHTML += addItem('images./toiletpaper.png','Tissue Paper');
-document.querySelector("#donts2div").innerHTML += addItem('images./slipper.png', 'Reusable Items');
-document.querySelector("#donts2div").innerHTML += addItem('images./styrofoam.png','Styrofoam Items');
+document.querySelector("#donts2div").innerHTML += addItem('/images/plasticbag.png','Soft Plastic');
+document.querySelector("#donts2div").innerHTML += addItem('/images/toiletpaper.png','Tissue Paper');
+document.querySelector("#donts2div").innerHTML += addItem('/images/slipper.png', 'Reusable Items');
+document.querySelector("#donts2div").innerHTML += addItem('/images/styrofoam.png','Styrofoam Items');
 
 
 
 document.querySelector("#dos2").innerHTML += dispDosDonts('#AEE781','#CBF6A8','Recycle','dos2');
-document.querySelector("#dos2div").innerHTML += addItem('images./glass.png','Glass');
-document.querySelector("#dos2div").innerHTML += addItem('images./pbottle.png','Hard Plastic');
-document.querySelector("#dos2div").innerHTML += addItem('images./can.png', 'Metal');
-document.querySelector("#dos2div").innerHTML += addItem('images./book.png','Paper')
+document.querySelector("#dos2div").innerHTML += addItem('/images/glass.png','Glass');
+document.querySelector("#dos2div").innerHTML += addItem('/images/pbottle.png','Hard Plastic');
+document.querySelector("#dos2div").innerHTML += addItem('/images/can.png', 'Metal');
+document.querySelector("#dos2div").innerHTML += addItem('/images/book.png','Paper')
 
 
 
@@ -102,6 +102,8 @@ document.head.appendChild(script);
 document.querySelector("#blackbin").innerHTML += animateBlackBin();
 document.querySelector("#greenbin").innerHTML += animateGreenBin();
 document.querySelector("#bluebin").innerHTML += animateBlueBin();
+document.querySelector("#trash1").innerHTML += handleDrag()
+
 
 // sorting ends
 
@@ -110,6 +112,43 @@ document.querySelector("#bluebin").innerHTML += animateBlueBin();
 document.querySelector("#compostPit").innerHTML += animatecompost();
 
 // functionality 
+
+//  bottle = document.querySelector(".dragger");
+// console.log(bottle)
+// bottle.onmousedown = function(event)
+// {
+//     bottle.style.position = "absolute"
+//     bottle.style.zIndex = 1000;
+//     document.body.sorting.appendChild(bottle);
+
+
+// function dragAlong(bodX, bodY)
+// {
+//     bottle.style.left = bodX - bottle.offsetWidth / 2 + "px";
+//     bottle.style.height = bodY - bottle.offsetHeight / 2 + "px";
+
+// }
+// dragAlong(event.bodX, event.bodY);
+
+
+// function onMouseMove (event)
+// {
+//     dragAlong(event.bodX, event.bodY);
+// }
+
+// document.addEventListener('mousemove', onMouseMove);
+
+// bottle.onmouseup = function ()
+// {
+//     document.removeEventListener('mousemove', onMouseMove );
+//     bottle.onmouseup = null;
+// }
+// bottle.ondragstart = function ()
+// {
+//     return false;
+// }
+
+// }
 
 // 
 

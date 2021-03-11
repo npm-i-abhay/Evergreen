@@ -31,7 +31,7 @@ html,body{
     justify-content: space-around;
     margin-bottom: .2e;
     background-color: rgb(103, 155, 103);
-    height: 15em;
+    height: 65em;
     width: 100vw;
 }
 
@@ -91,7 +91,7 @@ html,body{
 .wrapper .drive 
 {
     background-color: rgb(123, 177, 218);
-    height: 20em;
+    height: 75em;
     position: relative;
 }
 
@@ -397,7 +397,7 @@ z-index: -5;
     justify-content:center;
     align-items: center;
     position: absolute;
-    top: 5em;
+    top: 25em;
 }
 
 
