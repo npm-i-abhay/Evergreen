@@ -17,13 +17,6 @@ html,body{
 }
 
 
-
-
-
-
-
-
-
 .wrapper .landing 
 {   display: flex;
     flex-direction: column;
@@ -35,15 +28,26 @@ html,body{
     width: 100vw;
 }
 
-.landing h2,h3 
+.landing h1, h2
 {
     margin-bottom: -.5em;
+    margin-top: 30px;
 }
+
 @keyframes example  
 {
    from {transform: rotate(0deg);}
    to {transform: rotate(360deg);}
 }
+
+/* Headers */
+h1{
+    color: white;
+}
+.topicHeading{
+    color: white;
+}
+/* End of Headers */
 
 .box {
     align-self: flex-end;
@@ -135,14 +139,6 @@ html,body{
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> origin
 .dumping #dumpTruck
 {
     position: absolute;
@@ -159,11 +155,6 @@ html,body{
 {
     left: -40em;
 }
-
-
-
-
-
 
 
 .wrapper .statPage
@@ -184,12 +175,12 @@ html,body{
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
  to   { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
 } 
+
 @keyframes flyflytwo
 {
  from { transform: rotate(0deg) translateX(30px) rotate(0deg); }
  to   { transform: rotate(-360deg) translateX(30px) rotate(360deg); }
 } 
-
 
 @keyframes falling
 {
@@ -238,10 +229,6 @@ html,body{
     height: 20em;
    
 }
-
-
-
-
 
 
 
