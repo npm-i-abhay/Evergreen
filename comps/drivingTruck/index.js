@@ -10,7 +10,7 @@ function truckAnimation ()
             wrapper:container,
             loop: false,
             autoplay: false,
-            path:  'https://assets2.lottiefiles.com/private_files/lf30_9q1sksgo.json'
+            path:  'https://assets10.lottiefiles.com/private_files/lf30_yczwmx48.json'
         }
 
     );
