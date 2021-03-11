@@ -274,20 +274,10 @@ h1{
 }
 
 
-
-
-
-
-
-
-
 .buttonFlex{
     display:flex;
   
 }
-
-
-
 
 
 #interactiveGraph
@@ -370,7 +360,7 @@ h1{
 }
 
 
-#dosAndDontsFlex{
+ /* #dosAndDontsFlex{
 display:flex;
 }
 
@@ -378,8 +368,96 @@ display:flex;
 display: flex;
 background-color: rgb(152, 191, 152);
 z-index: -5;
-}
+} */
 
+/* start of do-dont compnent styling*/
+.action-item-ims {
+    display: inline-block;
+    animation-name: rotate;
+    animation-duration: .6s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+    transform: rotate(30deg);
+  }
+  
+  @keyframes rotate{
+    0% {
+      transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+  
+  .action-graph{
+    width: 1152px;
+    height: 685px;
+    display: flex;
+    flex-direction: row no-wrap;
+    margin: 10px;
+  }
+
+  .do-not-recycle, .do-recycle, .do-not-compost, .do-compost{
+    width: 576px;
+    height: 685px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .action-title{
+      margin-bottom: 30px;
+      color: white;
+      font-size: 1.5em;
+      font-weight: 100;
+  }
+
+  .action-tile-r{
+    width: 492px;
+    height: 496px;
+    background: #ECC2C2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+  
+  .action-tile-g{
+    width: 492px;
+    height: 496px;
+    background: #CBF7A8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .do-not-recycle, .do-not-compost{
+    background: #F1B6B6;
+
+  }
+
+  .do-recycle, .do-compost{
+    background: #AEE781;
+
+  }
+
+  .action-items{
+    display: flex;
+    flex-direction: row no-wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+/* end of do-dont component styling*/
 
 
 
