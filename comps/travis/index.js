@@ -1,4 +1,4 @@
-function TravisUI(top="200px", top2="250px"){
+function TravisUI(top="200px"){
     return`
     <img src="/images/trashy travis.png" style="
     height:250px;
