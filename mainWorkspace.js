@@ -22,7 +22,7 @@ document.querySelector("#garbageItem3").innerHTML += handleGarbage("0em", "15em"
 
 document.querySelector("#garbageItem4").innerHTML += handleGarbage("0em", "5em", "./images/garbage/garbage bag.png", "fallingtwo");
 
-document.querySelector("#green").innerHTML += handleRecycle ();
+
 
 document.querySelector("#pile").innerHTML += animateTrash();
 
@@ -75,8 +75,10 @@ document.querySelector("#dos").innerHtml += dispDontRecycle()
 
 
 // sorting
-document.querySelector("#black").innerHTML += animateBlackBin();
-document.querySelector("#blue").innerHTML += animateBlueBin();
+document.querySelector("#blackbin").innerHTML += animateBlackBin();
+document.querySelector("#greenbin").innerHTML += animateGreenBin();
+document.querySelector("#bluebin").innerHTML += animateBlueBin();
+
 // sorting ends
 
 
