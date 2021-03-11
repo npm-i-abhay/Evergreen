@@ -50,14 +50,14 @@ document.querySelector("#button2").innerHTML += animateButton();
 // mainCategory starts
 
 document.querySelector("#statItem1").innerHTML += tilecomp();  
-document.querySelector("#statItem2").innerHTML +=tilecomp("excus");
-document.querySelector("#statItem3").innerHTML +=tilecomp("excus");
-document.querySelector("#statItem4").innerHTML +=tilecomp("excus");
+document.querySelector("#statItem2").innerHTML +=tilecomp("75% of the worlds glass is not recycled");
+document.querySelector("#statItem3").innerHTML +=tilecomp("30% of the worlds paper is not recycled");
+document.querySelector("#statItem4").innerHTML +=tilecomp("40.6% of the worlds Aluminum is not recycled");
 
 
-document.querySelector("#statItem1A").innerHTML += tilecomp();  
-document.querySelector("#statItem2B").innerHTML +=tilecomp("excus");
-document.querySelector("#statItem3C").innerHTML +=tilecomp("excus");
+document.querySelector("#statItem1A").innerHTML += tilecomp("30% of the worlds vegetables are thrown in the trash");  
+document.querySelector("#statItem2B").innerHTML +=tilecomp("15% of the worlds fruit is thrown in the trash");
+document.querySelector("#statItem3C").innerHTML +=tilecomp("9% of the worlds baked goods are thrown in the trash");
 
 document.querySelector("#arrows").innerHTML += makeArrows();
 document.querySelector("#arrows").innerHTML += makeArrows();

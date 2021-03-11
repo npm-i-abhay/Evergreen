@@ -1,4 +1,4 @@
-function tilecomp(text="whatever"){
+function tilecomp(text="91% of the worlds plastic is not recycled"){
     return `
     <div style='
     
