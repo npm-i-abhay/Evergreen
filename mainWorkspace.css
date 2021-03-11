@@ -230,7 +230,8 @@ html,body{
 }
 
 #pile 
-{   position: absolute;
+{   
+    /* position: absolute; */
     left: -10em;
     top: 12em;
     display: flex;
