@@ -1,13 +1,14 @@
 function handleGarbage(top="5em", left="20em", url="/images/garbage/grouped garbage.png", name="falling")
 {
     return`
-    <div>
+    <div id='someGarbage' >
     <img style="
     display:flex;
-    position: relative;
+    position:relative;
     left:${left};
     top: ${top};
-    animation: ${name} 5s linear 0s;" src="${url}" alt="">
+    animation: ${name} 2s linear 0s infinite;" 
+    src="${url}" alt="">
 
     </div>
     

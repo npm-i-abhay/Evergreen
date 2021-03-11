@@ -13,8 +13,10 @@ document.querySelector("#drivingTruck").innerHTML += truckAnimation();
 // page4 StatPage/Falling garbage/ conversation and graph
 document.querySelector("#flies").innerHTML += moveFlies()
 document.querySelector("#flies").innerHTML += moveFlies("flyflytwo")
+document.querySelector("#flies").innerHTML += moveFlies()
+document.querySelector("#flies").innerHTML += moveFlies("flyflytwo")
 
-document.querySelector("#garbageItem1").innerHTML += handleGarbage("5em", "10em");
+document.querySelector("#garbageItem1").innerHTML += handleGarbage("0em", "10em");
 
 document.querySelector("#garbageItem2").innerHTML += handleGarbage("0em", "15em", "./images/garbage/appple 1.png", "fallingtwo");
 
@@ -84,5 +86,10 @@ document.querySelector("#bluebin").innerHTML += animateBlueBin();
 
 // result/ending page
 document.querySelector("#compostPit").innerHTML += animatecompost();
+
+// functionality 
+
+// 
+
 
 // shits done yo!
