@@ -135,14 +135,11 @@ html,body{
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
-=======
->>>>>>> origin
 .dumping #dumpTruck
 {
     position: absolute;
@@ -266,13 +263,15 @@ html,body{
 .wrapper .graph{
     display:flex;
     justify-content:center;
-    align-content:space-between;
+    align-items:flex-end;
     position: relative;
     background-color: green;
-    height: 85em;
+    height: 55em;
 }
 
-
+.buttonFlex{
+    margin:30px;
+}
 
 
 
