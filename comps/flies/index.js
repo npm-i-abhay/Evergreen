@@ -13,8 +13,8 @@ function moveFlies(animName="flyfly")
         
         
         <img  style=" position: absolute; animation-name: ${animName}; animation-duration: 3s;
-        // animation-iteration-count: infinite;
-        // animation-timing-function: linear;" src="./images/Fly.png" alt="">
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;" src="./images/Fly.png" alt="">
     </div>
 
     `
